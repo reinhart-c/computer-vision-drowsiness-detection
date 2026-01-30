@@ -1,0 +1,8 @@
+fastapi[standard]
+torch
+numpy
+opencv-python
+dlib
+ultralytics
+joblib
+scikit-learn

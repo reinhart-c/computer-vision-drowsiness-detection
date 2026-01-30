@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thesis Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="video-box">
+            <img id="videoStream" alt="Video Stream" />
+        </div>
+
+        <div class="side-panel">
+            <div class="metrics">
+                <div class="metric">
+                    <div class="metric-title">EAR</div>
+                    <div class="metric-value" id="m1">0.00</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-title">MAR</div>
+                    <div class="metric-value" id="m2">0.00</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-title">Pitch</div>
+                    <div class="metric-value" id="m3">0.00</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-title">Yaw</div>
+                    <div class="metric-value" id="m4">0.00</div>
+                </div>
+                <div class="metric">
+                    <div class="metric-title">Roll</div>
+                    <div class="metric-value" id="m5">0.00</div>
+                </div>
+            </div>
+    
+            <div class="status-box" id="status">Waiting for data...</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
