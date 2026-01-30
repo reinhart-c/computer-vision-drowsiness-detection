@@ -10,7 +10,7 @@ from ultralytics import YOLO
 class FeatureExtractor:
     def __init__(self):
         self.device_str = "cuda" if torch.cuda.is_available() else "cpu"
-        self.model = YOLO("yolo11n.pt").to(self.device_str)
+        self.model = YOLO("models/yolo11n.pt").to(self.device_str)
         self.model.model = self.model.model.eval().to(self.device_str)
 
         self.features = []
